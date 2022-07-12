@@ -16,6 +16,7 @@ retweet(){
   this.retweets++
 }
 reply(expected){
+this.replyCount++
 this.replies.push(expected)
 
 }
